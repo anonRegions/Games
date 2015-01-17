@@ -1,0 +1,302 @@
+/**********************************
+GENERAL
+**********************************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+} 
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+**********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0; 
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height:0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/**********************************
+NAVIGATION
+**********************************/
+
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+**********************************/
+
+footer {
+  font-size:0.75em;
+  text-align:center;
+  clear:both;
+  padding-top:50px;
+  color:#ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/**********************************
+PAGE: TIC-TAC-TOE
+**********************************/
+
+div#table {
+  display: block;
+  position: relative;
+}
+
+div#tableBorder {
+  width: 303px;
+  height: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+}
+
+
+div#cell_00 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_01 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_02 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_10 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_11 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_12 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_20 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_21 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+div#cell_22 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+div#cell_00, div#cell_01, div#cell_10, div#cell_11, div#cell_20, div#cell_21 {
+  border-right: 1px solid;
+}
+
+div#cell_00, div#cell_01, div#cell_02, div#cell_10, div#cell_11, div#cell_12 {
+  border-bottom: 1px solid;
+}
+
+table {
+  display: block;
+  width: 310px;
+  height: 310px;
+  /* border: 1px solid #000000; */
+}
+
+tr {
+  width: 310px;
+  height: 100px;
+  border: 1px solid #000000;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+}
+
+button {
+  width: 100px;
+  height: 101px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+}
+
+
+/**********************************
+PAGE: ABOUT
+**********************************/
+
+.profile-photo {
+  display: block; /* allows use of auto margins to center on page */
+  max-width: 150px;
+  margin: 0 auto 30px;  
+  border-radius: 100%;  /* rounds corners */
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+**********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../imgs/img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../imgs/img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../imgs/img/twitter.png');
+}
+
+
+
+/**********************************
+COLORS
+**********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+/* nav background for mobile devices */
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* color for nav links */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* colors for selected nav links */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
